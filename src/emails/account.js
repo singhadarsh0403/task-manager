@@ -6,7 +6,7 @@ const sendWelcomeEmail = (email, name) => {
         to: email,
         from:'adarsh.1721it1009@kiet.edu',
         subject:'Thanks for joining',
-        text : `Welcome to this app, ${name}. Let me know how you go alone with this app`
+        text : `Welcome to this app, ${name}. Let me know how you go along with this app`
     }).then(() => {
       console.log('Status: SUCCESS')
     }).catch((e) => {
